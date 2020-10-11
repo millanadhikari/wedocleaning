@@ -1,0 +1,93 @@
+.contact_us {
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.description{
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 1rem;
+    width: 70%;
+    line-height: 1.5;
+
+ 
+}
+.text_fields{
+    display: flex;
+   width: 80%;
+}
+
+form{
+        display: flex;  
+       margin-top: 50px;
+       background-color: #f1f4f5;
+       flex-direction: column;
+       border-radius: 5px;
+       padding: 20px 20px;
+       line-height: 4;
+       
+}
+.radio_buttons { 
+    margin-top:40px;
+}
+
+.text_field{
+    margin-right: 100px;
+}
+
+.comments { 
+    margin-top: 25px;
+    width: 90%;
+    
+}
+.file_upload { 
+    margin-top: 25px;
+    border: 3px solid #48a2df;
+    border-style: dashed;
+    padding: 20px 20px;
+
+}
+.upload_title{
+    display: flex;
+    justify-content: space-between;
+}
+.upload_icon{ 
+    width: 5%;
+    margin-left: 20px;
+    
+}
+.upload { 
+    display: flex;
+}
+
+.choose_files{
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #48a2df;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+
+.tick_boxes{
+    margin-top : 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loader{
+    display: none;
+}
+
+.submit_button { 
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+}

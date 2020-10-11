@@ -1,0 +1,28 @@
+.procedure > p{
+    font-size: 1.0rem;
+
+    font-family:'Raleway', sans-serif;
+}
+.procedure_title{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.procedure{
+    width: 350px;
+    height: 450px;
+    margin-top: 30px;
+    margin-right: 70px;
+    font-weight: lighter;
+    padding: 10px 10px;
+    text-align: center;
+    color:#057ec0;
+    line-height: 1.5;
+}
+
+
+.svg {
+    background-image: url('../../../Assets/17485654861584409101-128.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}

@@ -1,0 +1,71 @@
+.container{
+    align-self: center;
+}
+
+.services_option{
+    flex-wrap: nowrap;
+    font-size: 1rem;
+    width:25%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-top:25px;
+    width:100%;
+}
+
+.button_container{
+   display: flex;
+}
+.card_services{
+    align-items: right;
+}
+.logo_services {
+    font-size: 1.8rem;
+    padding-right:16px;
+}
+.services_container{
+    display: flex;
+    min-width: 80%;
+    justify-content: center;
+    background-color:#d8eefe;
+
+}
+.price{
+    font-family: 'Raleway';
+    font-size: 1rem;
+    margin-top:-8px;
+}
+.service{
+     width: 260px;
+     padding: 10px 10px 10px 10px;
+     cursor: pointer;
+     display:flex;
+     justify-content: left;
+     margin-bottom: 10px;
+     background-color: white;
+
+}
+
+.service_active{
+    width: 260px;
+     padding: 10px 10px 10px 10px;
+     cursor: pointer;
+     display:flex;
+     justify-content: left;
+     margin-bottom: 10px;
+     background-color: white;
+    background-color:red;
+}
+
+.services_price { 
+    font-size: 1.2rem;
+    padding-left:10px;
+    margin-right:20px;
+    
+}
+

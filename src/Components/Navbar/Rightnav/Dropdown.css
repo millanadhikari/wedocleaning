@@ -1,0 +1,34 @@
+.dropdown-menu {
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    list-style: none;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dropdown-menu li { 
+    background: #f1f4f5;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover{
+    text-decoration: underline;
+}
+
+.dropdown-menu.clicked{
+    display: none;
+}
+
+.dropdown-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #3571aa;
+    padding: 16px;
+
+
+}

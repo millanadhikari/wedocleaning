@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT sans', sans-serif;
+}
+
+.home, .services, .aboutus, .signup, .aboutus, .endofleaseclean {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    font-size: 3rem;
+}
+

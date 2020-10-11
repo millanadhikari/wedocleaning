@@ -1,0 +1,156 @@
+.endoflease{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.first_opacity {
+    background-image: linear-gradient(to right,white ,#48a2df); 
+    padding-left: 10px; 
+    
+    
+
+}
+.main_image > img{
+    object-fit: contain;
+    height: 300px;
+    border-radius: 6%;
+}
+.main_end{
+    font-size: 16px;
+    font-family: 'Raleway';
+    display: flex;
+    margin-top: 10px;
+
+    
+}
+
+.title{
+    font-size: 20px;
+    text-align: center;
+    color:#565656;
+    margin-bottom:15px;
+    }
+p{
+    font-family: 'Raleway';
+    font-size: 15px;
+    line-break:initial;
+    margin-bottom:10px;
+    line-height: 1.4;
+    align-content: flex-start;
+}
+.second_title{
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin-bottom:10px;
+    margin-top: 25px;
+    color:#064e81;
+    text-align: left;
+}
+ul{
+    padding-left:20px;
+    margin-bottom: 10px;
+
+}
+ul li{
+    font-family: 'Raleway';
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.first_display {
+    display: flex;
+    flex-direction: column;
+  
+  
+}
+.title_display { 
+    font-family: 'Raleway';
+    font-size: 1.6rem;
+    padding-top: 20px;
+    color: #565656;
+    font-weight: bold;
+}
+.first_display p{
+    font-family: 'Raleway';
+    font-weight: lighter ;
+    text-align: justify;
+    font-size: 1.3rem;
+    padding-top: 10px;
+    color: orange   ;
+}
+
+.first_button{
+    background-color:#48a2df;
+    border-radius: 4px;
+    padding: 13px 5px;
+    color:white;
+    transition: all 0.2s ease-out;
+    width: 290px;
+    text-align: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      }
+
+.first_button:hover{
+   padding: 15px 5px;
+   border-radius: 7px;
+
+
+}
+
+.post_code{
+    width:200px;
+
+    padding : 5px 20px;
+}
+
+.title_properties ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title_properties ul li{
+    font-family: 'Raleway';
+    font-size: 1rem;
+    line-height: 2;
+    color: #565656;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .main_image > img {
+        width: 320px;
+        border-radius: 5%;
+        margin-left: 25px;
+        overflow: hidden;
+        
+    }
+    .main_image{
+       
+    }
+    
+    .melbourne > p{
+        text-align: left;
+    }
+   
+    .main_title ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .title_properties ul {
+        display: none;
+    }
+    .main_end {
+        display: flex;
+        flex-direction: column;
+    }
+    .main_title{
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

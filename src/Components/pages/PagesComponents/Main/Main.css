@@ -1,0 +1,171 @@
+.main{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}   
+.circle {
+    display: flex;
+    justify-content: center;
+}
+
+.circlenavs{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.circlenav {
+    border: 1px solid black;
+    border-radius:50%;
+    width: 15px;
+    height: 15px;
+    background-color: #057ec0;
+    cursor: pointer;
+}
+.main_title{
+    font-family: 'Raleway';
+    font-size:1.4rem;
+    font-weight: bold;
+
+}
+.main_description{
+    font-family: 'Raleway';
+    font-size: 1rem;
+    line-height: 1.6;
+    color:black;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+.left_container > .prices p{
+    font-size:0.7rem;
+    font-family: 'Raleway';
+    text-align: left;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: 5px;
+}
+.left_container{
+}
+.prices_button{
+    border: 1px solid #057ec0;
+    background-color:#057ec0;
+    width: 270px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 7px;
+    padding: 5px ;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.prices_button:hover{
+    background-color:white;
+    color:#057ec0;
+
+}
+.prices{
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    font-size:1.9rem;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-weight: bold;
+
+}
+
+
+.right_container{
+    
+}
+.cards{
+    width: 250px;
+    height:60px;
+    border:1px solid black;
+    margin:5px 5px;
+    text-align: center;
+}
+
+
+.main_endoflease{
+    display: flex;
+    flex-direction: column;
+}
+
+.circle_toggle{
+    border: 1px solid black;      
+    border-radius:50%;
+    width: 15px;
+    height: 15px;
+    background-color: #057ec0;
+    cursor: pointer;
+}
+
+.circle_toggle:active{
+    background-color: red;
+}
+
+.circle_container{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.mother_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_service{
+    font-size: 1rem;
+    border: 1px solid#48a2df;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.right_service:hover{
+    color: white;
+    border: 1px solid black;
+    background-color:#48a2df;
+    cursor :pointer;
+
+}
+
+.right_serviceActive{
+    font-size: 1rem;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 10px;
+    background-color:#48a2df;
+    margin-bottom: 10px;
+
+}
+
+
+.title_service{
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.price_service{
+    font-family: 'Raleway';
+    font-size: 0.9rem;
+    padding-top: 5px;
+    }
+
+
+@media screen and (max-width: 400px) {
+    .main{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .main_description{
+        display: none;
+    }
+    .prices_button{
+        width: 180px;
+        font-size: 0.9rem;
+        margin-right: 15px;
+        
+    }
+
+}

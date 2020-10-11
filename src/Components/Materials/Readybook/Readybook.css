@@ -1,0 +1,80 @@
+.readybook{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    background-image: linear-gradient(to left, rgb(223, 215, 215), rgb(2, 71, 109));;
+        justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.readybook h1{
+    padding-top: 40px;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 40px;
+}
+.readybook .buttons{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+}
+
+.buttons > .request_quote{
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #057ec0;
+    border-color: #057ec0;
+    
+}
+
+.buttons > .request_quote:hover{
+    background-color: white;
+    color:#057ec0;
+}
+
+.readybook .buttons > .book_online, .request_quote, .need_help{
+    border: 1px solid white;
+    font-size: 1rem;
+    margin: 10px 5px;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.buttons .book_online:hover{
+    background-color: white;
+    color:#057ec0;
+
+}
+.buttons .need_help:hover{
+    background-color: white;
+    color:#057ec0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .buttons{
+        flex-flow: column;
+        margin-bottom: 2px;
+           }
+           .readybook .buttons > .book_online, .request_quote, .need_help{
+            margin: 10px 10px;
+            border-radius: 7px;
+            padding-right: 45px;
+            padding-left: 45px;
+            cursor: pointer;
+        }
+        .readybook .buttons > .need_help{
+            padding-right:54px;
+            padding-left:54px;
+        }
+}
