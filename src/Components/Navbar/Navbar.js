@@ -36,7 +36,7 @@ function Navbar() {
     };    
 
     return ( 
-        <>
+        
             <nav className='navbar'>
                 <Link to='/' className='navbar-logo'>
                      <div className="logo"></div>
@@ -99,7 +99,7 @@ function Navbar() {
                 </div>
 
             </nav>
-         </>
+        
     )
 }
 

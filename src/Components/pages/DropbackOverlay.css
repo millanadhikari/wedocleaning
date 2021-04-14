@@ -1,0 +1,30 @@
+.dropbackoverlay{
+    background-color: none;
+}
+.loading_overlay {
+    position:fixed;
+    
+  
+   
+  }
+  .loading_component{
+    position:fixed;
+    background-color:rgb(42, 40, 40);
+    opacity:0.5;
+    height:100vh;
+    width:100%;
+    z-index: 5;
+  
+  
+    z-index:999;
+  }
+  
+  .loading_componentContents{
+    position:relative;
+    top:0;
+    z-index: 999;
+    top:250px;
+    left:90px;
+    text-align: center;
+  }
+  

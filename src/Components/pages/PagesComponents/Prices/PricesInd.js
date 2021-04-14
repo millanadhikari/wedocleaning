@@ -5,7 +5,6 @@ import './PriceInd.css'
 
 function PricesInd() {
     const [showPrices, setShowPrices] = useState('false');
-
    
 
     return (
@@ -16,7 +15,7 @@ function PricesInd() {
                     onClick = {() => setShowPrices(!showPrices)}
                     className="uparrow">~</div>
             </div>
-            {showPrices ?  
+            {/* {showPrices ?   */}
             <div className="table">
                 <table>
                     <tr>
@@ -45,7 +44,7 @@ function PricesInd() {
                     
                 </table>
                 <p>*The minimum for the service is $90</p>
-            </div> : 
+            </div> 
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import {Link} from 'react-router-dom'
+import MobileFooter from './MobileFooter'
 
 
 function Footer() {
@@ -59,7 +60,8 @@ function Footer() {
             </div>
             
             </div>
-            <div className="mobile_links">
+            <MobileFooter/>
+            {/* <div className="mobile_links">
                 <ul>
                     <li>Home</li>
                     <li>Services</li>
@@ -70,7 +72,7 @@ function Footer() {
                     <li>Privacy Policy</li>
                     <li>Terms of Use</li>
                 </ul>
-            </div>
+            </div> */}
 
             
 

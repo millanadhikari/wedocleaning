@@ -1,0 +1,30 @@
+.overview {
+    width:100%;
+    position: sticky;
+    top:74px;
+    z-index: 999;
+    margin-top:10px;
+    
+
+}
+.overview.active {
+    background-color:#eff0f2;
+}
+
+.overview > ul{
+    height: 40px;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left:0px;
+    cursor:pointer;
+    
+
+}
+
+.overview > ul > li {
+    font-size:14px;
+    color:#3498db;
+    font-weight: bold;
+}

@@ -1,0 +1,107 @@
+.homefirst{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: left;
+    padding: 0px 10px 50px 20px;
+    margin-top: -420px;
+    background-color:#f0f4f5;
+
+    
+}
+.homefirst_img {
+   
+}
+.homefirst_imgfinal{
+    height: 420px;
+    background-image: url('https://insights.workwave.com/wp-content/uploads/2020/03/concept-of-quality-cleaning-picture-id1184689521.jpg');
+    object-fit: contain; 
+    opacity:0.8;
+    
+    background-position: center;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+}
+
+.homefirst > h3 { 
+    font-size: 26px;
+    line-height: 1.8rem;
+    font-family: 'Raleway';
+    font-weight:  800;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    z-index: 300;
+    
+}
+
+.homefirst > p {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Raleway', 'sans-sarif';
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    z-index: 300;
+
+}
+
+.homefirst > button { 
+    padding: 5px;
+    width: 200px;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight:bold;
+    background-color:#48a2df;
+    color: white;
+    border:none;
+    font-family: 'Raleway';
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    z-index: 300;
+
+
+}
+
+.homefirst > .buttonTwo { 
+    margin-top: 15px;
+    width:280px;
+    background-color: white;
+    color: #48a2df;
+    display: flex;
+    border: 1px solid #48a2df;
+    padding-bottom: 10px;
+    
+    
+}
+
+.buttonTwo > .contact{
+    text-align: left;
+    color: #6285af;
+    
+    padding-left: 5px;
+    margin-bottom: -10px;
+    margin-top: -4px;
+}   
+
+.contact > h3 { 
+    font-size: 16px;
+    
+}
+
+.contact > p { 
+    font-size: 13px;
+    font-weight: 300;
+    
+    
+}
+.img__opacity{
+    height:420px;
+    background-image: linear-gradient(to right,whitesmoke,white,transparent, transparent);
+    opacity: 1;
+}

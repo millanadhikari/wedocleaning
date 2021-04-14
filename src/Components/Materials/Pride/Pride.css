@@ -1,0 +1,31 @@
+.pride { 
+    margin: 20px;
+    padding: 40px;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:none;
+
+}
+.pride_contents{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+
+.pride_contents > h3 { 
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #48a2df;
+    margin-bottom: 5px;
+}
+
+.pride_contents > p {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+

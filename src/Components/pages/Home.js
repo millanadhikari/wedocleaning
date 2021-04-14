@@ -3,18 +3,31 @@ import './Home.css'
 import Cards from './PagesComponents/Cards'
 import Footer from '../Footer/Footer'
 import Readybook from '../Materials/Readybook/Readybook'
-import Faq from '../pages/PagesComponents/Faq'
+import FooterNew from './PagesComponents/FooterNew'
 import Banner from '../pages/PagesComponents/Banner/Banner'
 import Main from '../pages/PagesComponents/Main/Main'
+import HomeFirst from '../Materials/HomeFirst/HomeFirst'
+import Pride from '../Materials/Pride/Pride'
+import ModernCleaning from '../Materials/ModernCleaning/ModernCleaning'
+import Friendly from '../Materials/Friendly/Friendly'
+import Carousel from '../Materials/Carousel/Carousel'
+
 
 export default function Home() {
+
+
     return (
         <div className="home">
-           <Main/>
-            <Banner/>
-           <Faq/>
+           {/* <Main/> */}
+           <HomeFirst/>
+            {/* <Banner/> */}
+            <ModernCleaning/>
+            <Pride/>
+            <Friendly/>
+            <Carousel/>
+           
            <Readybook/>
-           <Footer/>
+           <FooterNew/>
         </div>
     )
 }

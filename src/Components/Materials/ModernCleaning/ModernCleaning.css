@@ -1,0 +1,46 @@
+.moderncleaning { 
+    padding: 15px;
+    background-color:#f0f4f5;
+    padding-top: 50px;
+    
+}
+
+.moderncleaning_title > h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.moderncleaning_title > p {
+    font-size: 16px;
+    font-weight:400;
+}
+
+.moderncleaning_content { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.moderncleaning_content > h3{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-family: 'Raleway';
+    font-weight:700;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+.moderncleaning_content > p {
+    font-size: 15px;
+    font-weight:400;
+    text-align: center;
+}
+
+.moderncleaning_content > .icons { 
+    font-size:70px;
+    color: #48a2df;
+    margin-bottom: 5px;
+}

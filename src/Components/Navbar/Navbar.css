@@ -1,14 +1,19 @@
 .navbar {
     background:white;
-    opacity:0.9;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.2rem;
     box-shadow: 0px 0px 10px 0px black, 0px 0px 0px 0px black;
-    transition: top 0.3s;
-    
+    transition: top 0.5s;
+    position: sticky;
+    top:0;
+    z-index: 999;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+            
   }
   
   .navbar-logo {
@@ -118,6 +123,7 @@
   }
   
   @media screen and (max-width: 955px) {
+   
     .fa-caret-down{
       display: none;
     }

@@ -13,6 +13,7 @@ import CarpetClean from './Components/pages/CarpetClean'
 import Blogs from './Components/pages/Blogs'
 import Book from './Components/pages/Book'
 import Thankyou from './Components/pages/Thankyou'
+import MultistepForm from './Components/pages/MultistepForm'
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
         <Route path='/Carpet-cleaning' exact component={CarpetClean}/>
         <Route path='/Mould-clean' exact component={MouldClean}/>
         <Route path='/blogs' exact component={Blogs}/>
-        <Route path='/bookonline' exact component={Book}/>
+        <Route path='/bookonline' exact component={MultistepForm}/>
         <Route path='/thankyou' exact component={Thankyou}/>
 
       </Switch>
